@@ -1,0 +1,107 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>French Learning Resources</title>
+    <style>
+        body {
+            background-color:antiquewhite ;
+        }
+        .title {
+            display: block;
+            text-align: left;
+            font-family: 'Courier New', Courier, monospace, Impact;
+            text-decoration: none;
+            color:brown;
+            width: 100px;
+            height: 50px;
+            margin: 20px;
+        }
+
+        .navbar {
+            overflow: hidden;
+            background-color:rgb(245, 208, 214);
+        }
+        .navbar a{
+            float: left;
+            padding: 10px;
+            text-align: center;
+            text-decoration: none;
+            color:black
+        }
+
+        .navbar a:hover, .dropdown:hover {
+            background-color:bisque;
+        }
+
+        .dropdown {
+            float: left;
+            overflow: hidden;
+        }
+
+        .dropdown .dropbtn {
+            padding: 10px;
+            text-align: center;
+            border: none;
+            outline: none;
+            background-color: inherit;
+            font-size: inherit;
+            font-family: inherit;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+        }
+
+        .dropdown-content a{
+            display: block;
+            float: none; /*making the display verticle*/
+            text-decoration: none;
+            text-align: left;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+            background-color: azure;
+        }
+
+        .homepage p{
+            display: block;
+            width: 80%;
+            margin: auto;
+            margin-top: 10px;
+            padding: 10px;
+            border-style: dotted;
+            border-color:brown;
+        }
+    </style>
+</head>
+<body>
+    <a class="title" href="index.html">French Learning Page</a>
+
+    <div class="navbar">
+        <a href="home.html">Home</a>
+        <a href="#news">Le But</a>
+        <div class="dropdown">
+          <button class="dropbtn">Ressource
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">YouTube</a>
+            <a href="#">Les Livres</a>
+            <a href="#">Balado</a>
+          </div>
+        </div> 
+      </div>
+
+    <div class="homepage">
+        <p>Bienvenue a la page d'apprentissage du francais. Cette page contient les ressources pour les étudient du francais.
+            J'ai organisé les ressources que j'avais trouvé utile pour l'apprentissage du francais. Ces ressources sont pour les niveaux
+            plus avancé que B1.
+        </p>
+    </div>
+
+
+</body>
+</html>

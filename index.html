@@ -1,0 +1,102 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>French Learning Resources</title>
+    <style>
+        body {
+            background-color:antiquewhite ;
+        }
+
+        .head {
+            display: flex;
+            align-items: center;
+        }
+
+        .title {
+            display: block;
+            text-align: left;
+            font-family: 'Courier New', Courier, monospace, Impact;
+            font-size: 1.2rem;
+            text-decoration: none;
+            color:brown;
+            width: 120px;
+            height: 50px;
+            margin: 20px;
+        }
+
+        .navbar {
+            overflow: hidden;
+            background-color:rgb(245, 208, 214);
+        }
+        .navbar a{
+            float: left;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            font-family:'Courier New', Courier, monospace;
+            color:black
+        }
+
+        .navbar a:hover, .dropdown:hover {
+            background-color:bisque;
+        }
+
+        .dropdown {
+            float: left;
+            overflow: hidden;
+        }
+
+        .dropdown .dropbtn {
+            padding: 10px 20px;
+            text-align: center;
+            border: none;
+            outline: none;
+            background-color: inherit;
+            font-family:'Courier New', Courier, monospace;
+            font-size: inherit;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+        }
+
+        .dropdown-content a{
+            display: block;
+            float: none; /*making the display verticle*/
+            text-decoration: none;
+            text-align: left;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+            background-color: azure;
+        }
+    </style>
+</head>
+<body>
+    <div class="head">
+
+        <a class="title" href="index.html">French Learning Page</a>
+
+        <div class="navbar">
+            <a href="home.html">Home</a>
+            <a href="#news">Le But</a>
+            <div class="dropdown">
+            <button class="dropbtn">Ressource
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#">YouTube</a>
+                <a href="#">Les Livres</a>
+                <a href="#">Balado</a>
+            </div>
+            </div> 
+        </div>
+
+      </div>
+
+
+</body>
+</html>
